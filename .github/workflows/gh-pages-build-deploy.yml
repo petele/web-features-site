@@ -41,6 +41,7 @@ jobs:
         with:
           cache: npm
           node-version-file: .node-version
+          cache-dependency-path: gh-pages/package-lock.json
       - name: NPM Install
         run: npm ci
         working-directory: gh-pages/
