@@ -12,7 +12,7 @@
   },
   "scripts": {
     "build:dev": "eleventy",
-    "build:prod": "eleventy --pathprefix=web-features",
+    "build:prod": "eleventy --pathprefix=web-features-site",
     "dev": "eleventy --serve",
     "clean": "rm -rf ../_site"
   },
