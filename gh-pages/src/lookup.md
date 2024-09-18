@@ -8,7 +8,6 @@ Look up the Baseline status of a web feature using the [`<baseline-status>` web 
 
 <label for="feature-select">Web feature</label>
 <select name="feature" id="feature-select">
-
   <option value=""></option>
   {% for feature in featuresList %}
   <option value="{{ feature.key }}">{{ feature.name }}</option>
